@@ -1,0 +1,160 @@
+body, html {
+	background:linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.5)),url(/XaTa/images/background5.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+.description {
+	position: absolute;
+	max-width: 25%;
+	left: 10%;
+	top: 50%;
+}
+.description p {
+	color: #F5E2CD;
+	max-width: 100%;
+	font: italic small-caps bold 16px/2 cursive;
+}
+.logo {
+	font: italic small-caps bold 48px cursive;
+	background: linear-gradient(45deg, rgba(215, 215, 215, 0.94), rgba(0, 0, 0, 0));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	max-width: 100%;
+}
+/* Иконки */
+
+.lotesules {
+	max-width: 100%;
+	padding: 10px;
+}
+.lotesules a{
+	text-decoration: none;
+	color: #ffffff;
+	padding: 10%;
+	font-size: 25px;
+}
+.lotesules a:hover i{
+	color: rgb(255, 106, 0);
+	transform: scale(1.5);
+}
+.copy p{
+	position: absolute;
+	left: 100%;
+	top:90%;
+	font: italic small-caps bold 10px/2 cursive;
+	color: #F5E2CD;
+}
+
+/* Меню */
+
+.vanous-nevog { 
+	flex-wrap: wrap;
+	position: absolute;
+	max-width: 50%;
+	left: 35%;
+	top: 5%;
+	display: flex;
+	
+}
+.kasavin-egedsa {
+	padding: 20px;
+	cursor: pointer;
+}
+  .kasavin-egedsa * {
+	transition: .5s linear;
+}
+.kipasa-demulas {
+	background: #454b4d00;
+	padding: 15px;
+}
+.amon-saneka:before {
+	content: "";
+	font-family: FontAwesome;
+	color: #37909b;
+	font-size: 60px;
+}
+.amon-saneka.git:before {
+	content: "\f09b";
+}
+.amon-saneka.docker:before {
+	content: "\f395";
+}
+.amon-saneka.ubuntu:before {
+	content: "\f7df";
+}
+.amon-saneka.grafana:before {
+	content:url(/XaTa/images/1.png);
+}
+.amon-saneka.nginx:before {
+	content:url(/XaTa/images/3.png);
+}
+.amon-saneka.gear:before {
+	content: "\f0ac";
+}
+.kasavin-egedsa:hover .amon-saneka, .kasavin-egedsa:hover .muneka-sconsu h3, .kasavin-egedsa:hover .muneka-sconsu p {
+	transform: translateY(-8px);
+}
+.muneka-sconsu {
+	color: #F5E2CD;
+	font-size: 16px;
+}
+.muneka-sconsu h3 {
+	margin-bottom: 25px;
+	transition-delay: .1s;
+}
+.muneka-sconsu p {
+	transition-delay: .1s;
+}
+.item-footer {
+	padding-top: 10px;
+}
+.link {
+	text-decoration: none;
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	padding-right: 150px;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #37909b;
+}
+.link:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	height: .125rem;
+	margin: auto;
+	background:rgb(255, 106, 0);
+	transform: scaleX(.2);
+	transform-origin: left center;
+	z-index: 0;
+	transition: .6s cubic-bezier(.6, .01, 0, 1);
+}
+.link span {
+	display: inline-block;
+	position: relative;
+	transform: translateX(-200%);
+	transition: .6s cubic-bezier(.6, .01, 0, 1);
+}
+.kasavin-egedsa:hover .link span {
+	transform: translateX(0%);
+}
+.kasavin-egedsa:hover .link:before {
+	transform-origin: right center;
+}
+@media (min-width: 768px) {
+	.kasavin-egedsa {
+	flex-basis: 50%;
+	flex-shrink: 0;
+	}
+}
+@media (min-width: 960px) {
+	.kasavin-egedsa {
+	flex-basis: 33.333333333%;
+	}
+}
