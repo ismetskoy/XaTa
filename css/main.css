@@ -189,7 +189,7 @@ body, html {
 	min-width: 100px;
   }
   .btn-close {
-	color: #e60023;
+	color: #171717;
 	font-size: 30px;
 	text-decoration: none;
 	padding:10px;
@@ -198,13 +198,13 @@ body, html {
 	top: 0;
   }
   .btn-close:hover {
-	color: #333;
+	color: rgb(51, 51, 51);
   }
   .modal:before {
 	
 	content: "";
 	display: none;
-	background: rgb(230,0,35,0.3);
+	background: rgba(255, 255, 255, 0.141);
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -220,17 +220,17 @@ body, html {
 	top: 20%;
   }
   .modal-dialog {
-	background: #fefefe;
+	background: #457d7d;
 	border: #333333 solid 0px;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin-left: -200px;
 	text-align:center;
 	position: fixed;
 	left: 50%;
 	top: -100%;
-	z-index: 11;
+	z-index: 10;
 	width: 450px;
-	box-shadow:0 5px 10px rgba(0,0,0,0.3);
+	box-shadow:0 5px 10px rgba(0, 0, 0, 0.396);
 	transform: translate(0, -500%);
 	transition: transform 0.3s ease-out;
   }
@@ -240,8 +240,8 @@ body, html {
   .modal-body input{
 	width:200px;
 	padding:8px;
-	border:1px solid #ddd;
-	color:#888;
+	border:1px solid rgba(255, 255, 255, 0.996);
+	color:rgb(0, 0, 0);
 	outline:0;
 	font-size:14px;
 	font-weight:bold;
@@ -249,10 +249,10 @@ body, html {
   }
   .modal-header,
   .modal-footer {
-	padding: 10px 20px;
+	padding: 20px 10px;
   }
   .modal-header {
-	border-bottom: #eeeeee solid 1px;
+	border-bottom: #eeeeeefd solid 1px;
   }
   .modal-header h2 {
 	font-size: 20px;
