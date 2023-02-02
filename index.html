@@ -10,13 +10,14 @@
 	<link type="image/x-icon" href="/XaTa/images/launch.ico" rel="shortcut icon">
 
 	<script src="https://kit.fontawesome.com/1f1ce1e187.js" crossorigin="anonymous"></script>
-	
+	<script src="/app/ap.js"></script>
+
+
 	<title>XaTa</title>
 	
 </head>
 
 <body>
-
 	<div class="description">
 		<div class="logo">HtmL?</div>
 		<p>Сайт представлен как "Портфолио". Данный сайт содержит исключительно рабочий процесс🚀</p>
@@ -25,7 +26,32 @@
 		<a href="#"><i class="fa fa-github"></i></a></li>
 		<a href="#"><i class="fa fa-vk"></i></a></li>
 		<a href="#"><i class="fa fa-telegram"></i></a></li>
-		</ul></div>
+		</ul>
+
+		<div class="modal" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-header">
+				<h2>Войдите в свой аккаунт</h2>
+				<a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
+			  </div>
+			  <div class="modal-body">
+				<input type="text" name="user" placeholder="Имя пользователя" size="20" /><br>
+				<input type="text" name="pass" placeholder="Пароль" size="20" /></div>
+			  <div class="modal-footer">
+			
+				<a href="#" class="btn">Авторизоваться</a>
+			  </div>
+			</div>
+		  </div>
+			<p><a href="#" class="btn btn-big openmodal">Нажми для связи</a></p>
+
+			<form action="https://formspree.io/f/{form_id}" method="post">
+				<label for="email">Your Email</label>
+				<input name="Email" id="email" type="email">
+				<button type="submit">Submit</button>
+			  </form>
+
+	</div>
 </footer>
 
 	<div class="vanous-nevog">
@@ -106,7 +132,7 @@
 			<a href="#" class="link"><span>Подробнее</span></a>
 		</div>		
 		</div>
-		</div>					
+		</div>	
 </body>
 		<div class="copy"><p>copyright © 2023</p></div>	
 </html>
