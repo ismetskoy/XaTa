@@ -1,5 +1,5 @@
 body, html {
-	background:linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.5)),url(/XaTa/images/background5.jpg);
+	background:linear-gradient(rgba(0, 0, 0, 0.103), rgba(0, 0, 0, 0.5)),url("../images/background5.jpg");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
@@ -54,14 +54,14 @@ body, html {
 .vanous-nevog { 
 	flex-wrap: wrap;
 	position: absolute;
-	max-width: 50%;
+	max-width: 60%;
 	left: 35%;
 	top: 5%;
 	display: flex;
 	
 }
 .kasavin-egedsa {
-	padding: 20px;
+	padding: 5px;
 	cursor: pointer;
 }
   .kasavin-egedsa * {
@@ -87,10 +87,10 @@ body, html {
 	content: "\f7df";
 }
 .amon-saneka.grafana:before {
-	content:url(/XaTa/images/1.png);
+	content:url(../images/1.png);
 }
 .amon-saneka.nginx:before {
-	content:url(/XaTa/images/3.png);
+	content:url(../images/3.png);
 }
 .amon-saneka.gear:before {
 	content: "\f0ac";
