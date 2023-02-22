@@ -7,46 +7,38 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/modal.css">
 	<link type="image/x-icon" href="images/launch.ico" rel="shortcut icon">
 
 	<script defer src="https://kit.fontawesome.com/1f1ce1e187.js" crossorigin="anonymous"></script>
 	
 	<script defer src="app/jquery-3.6.3.min.js"></script>
-	<script defer src="app/ap.js"></script>
-
-
+	
 	<title>XaTa</title>
 	
 </head>
 
 <body>
 	<div class="description">
+		<div class="loader">🛸</div>
 		<div class="logo">HtmL?</div>
 		<p>Сайт представлен как "Портфолио". Данный сайт содержит исключительно рабочий процесс🚀</p>
-<footer>
+		<a href="#openModal" class="btn">Подробнее о проектах</a>
+		
 		<ul class="lotesules">
+			
+			<div class="copy"><p>copyright © 2023</p></div>	
+			
 		<a href="https://github.com/ismetskoy"><i class="fa fa-github"></i></a></li>
 		<a href="https://vk.com/felhat"><i class="fa fa-vk"></i></a></li>
 		<a href="https://t.me/IvanSmec"><i class="fa fa-telegram"></i></a></li>
+		
 		</ul>
 
-		<div class="modal" aria-hidden="true">
-			<div class="modal-dialog">
-			  <div class="modal-header">
-				<h2>Отправка почты</h2>
-				<a href="#" class="btn-close closemodal" aria-hidden="true">&times;</a>
-			  </div>
-			  <div class="modal-body">
-				<input type="text" name="user" placeholder="Почта" size="20" /><br>
-				<input type="text" name="pass" placeholder="Текст" size="20" /></div>
-			  <div class="modal-footer">
-				<a href="#" class="btn">Отправить</a>
-			  </div>
-			</div>
-		  </div>
-			<p><a href="#" class="btn btn-big openmodal">Нажми для связи</a></p>
+
 	</div>
-</footer>
+
+	
 
 	<div class="vanous-nevog">
 
@@ -128,5 +120,19 @@
 		</div>
 		</div>	
 </body>
-		<div class="copy"><p>copyright © 2023</p></div>	
+		
+		<div id="openModal" class="modal">
+			<div class="modal-dialog">
+			<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title">Мои работы и проекты</h3>
+				<a href="#close" title="Закрыть" class="close">×</a>
+			</div>
+		<div class="modal-body">    
+				<p>Скоро будет 😎</p>
+			</div>
+			</div>
+			</div>
+			</div>
+
 </html>
