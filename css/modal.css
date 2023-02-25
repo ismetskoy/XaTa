@@ -29,7 +29,7 @@
 }
 @media (min-width: 576px) {
 .modal-dialog {
-    max-width: 500px;
+    max-width: 950px;
     margin: 50px auto; /* для отображения модального окна по центру */
 }
 
@@ -76,7 +76,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 10px;
-    border-bottom: 1px solid #000000;
+    border-bottom: 5px solid #000000;
 }
 .modal-title {
     line-height: 1.5;
@@ -110,7 +110,7 @@
     -webkit-flex: 1 1 auto;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    padding: 15px;
+    padding: 5px;
     overflow: auto;
 }
 
