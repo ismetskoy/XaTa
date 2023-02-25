@@ -112,6 +112,13 @@
     flex: 1 1 auto;
     padding: 5px;
     overflow: auto;
+    font: italic small-caps bold 22px/2 cursive;
+}
+
+.img {
+
+    padding: 50px;
+
 }
 
 .btn {
